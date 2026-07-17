@@ -1,10 +1,26 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">{{ section.title }}</h1>
-<ul>
+<h1>{{ section.title }}</h1>
+<div class="blog-list-content">
+<pre class="wrap blog-ls">
+<span class="white">$ </span><span class="green">ls</span>
+</pre>
+
+<div class="blog-list">
 	{% for page in section.pages %}
-	<li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+		<pre class="blog-entry wrap">
+			<a href="{{ page.permalink | safe}}" class="blog-date"><span class="yellow">{{ page.date }}.md</span></a>
+			{% if page.extra.image %}
+			<div class="blog-image-wrap">
+				<a href="{{ page.permalink | safe}}"><img src="{{ page.extra.image | safe}}" alt="{{ page.title }}" class="blog-thumbnail"></a>
+			</div>
+			{% endif %}
+			<h2 class="blog-title">
+				<a href="{{ page.permalink | safe}}">{{ page.title }}</a>
+			</h2>
+		</pre>
 	{% endfor %}
-</ul>
+</div>
+</div>
 {% endblock content %}

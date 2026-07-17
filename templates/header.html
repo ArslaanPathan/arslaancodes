@@ -1,7 +1,7 @@
 <header>
 	<div class="header-inner">
 		<div class="site-title">
-			<a href="/"><span class="pink">arslaan</span><span class="white">@</span><span class="yellow">thinkpad-e16-void</span><span class="white">:</span><span class="green bold">~</span></a>
+			<a href="/"><span class="pink">arslaan</span><span class="white">@</span><span class="yellow">thinkpad-e16-void</span><span class="white">:</span><span class="green bold">~{% if section.extra.header_title %}/{{ section.extra.header_title }}{% endif %}</span></a>
 		</div>
 		<nav>
 			<a href="/" class="{% if current_path == '/' %}active{% else %}purple{% endif %}">home</a>

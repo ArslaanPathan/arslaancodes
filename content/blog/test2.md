@@ -1,10 +1,10 @@
 +++
-title = "Blog post test"
-date = 2026-07-17
+title = "Blog post test 2"
+date = 2026-07-18
 extra.image = "/assets/images/Arslaan Pathan.svg"
 +++
 
-# Test blog post
+# Test blog post 2
 
 ```shell
 echo "Codeblocks"
