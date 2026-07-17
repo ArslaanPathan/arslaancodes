@@ -1,12 +1,12 @@
 <header>
 	<div class="header-inner">
 		<div class="site-title">
-			<a href="/">arslaan@thinkpad-e16-void:~</a>
+			<a href="/"><span class="pink">arslaan</span><span class="white">@</span><span class="yellow">thinkpad-e16-void</span><span class="white">:</span><span class="green bold">~</span></a>
 		</div>
 		<nav>
-			<a href="/">home</a>
-			<a href="/projects">projects</a>
-			<a href="/blog">blog</a>
+			<a href="/" class="{% if current_path == '/' %}active{% else %}purple{% endif %}">home</a>
+			<a href="/projects" class="{% if current_path is starting_with('/projects') %}active{% else %}purple{% endif %}">projects</a>
+			<a href="/blog" class="{% if current_path is starting_with('/blog') %}active{% else %}purple{% endif %}">blog</a>
 		</nav>
 	</div>
 </header>
