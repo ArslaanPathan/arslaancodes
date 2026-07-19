@@ -1,9 +1,9 @@
 +++
 title = "Saffron"
 weight = 1
+extra.displayed_filename = "saffron.md"
+extra.url = "https://git.arslaancodes.com/saffron.git/about/"
 +++
-
-# [Saffron](https://git.arslaancodes.com/saffron.git/about/){: .white target="_blank" }
 
 A lightweight, extensible, and dead-simple retained-mode UI framework written in C and SDL3.
 

@@ -2,6 +2,7 @@
 title = "zwzn-freefit-re"
 weight = 5
 extra.url = "https://git.arslaancodes.com/zwzn-freefit-re.git/about/"
+extra.displayed_filename = "zwzn-freefit-re.md"
 +++
 
 Reverse-engineering of sketchy Chinese watches
@@ -29,5 +30,5 @@ There is a better and longer explanation in the Git repo's README itself, but to
 
 ## Notes
 
-I also wrote a small Android companion app for these watches, as a replacement to the original. I can no longer add more features or test anything in relations to reverse-engineering or the companion app, because I may or may not have broke the watch...
-You can find the companion app [here](https://git.arslaancodes.com/zwzn-freefit-android.git){: target="_blank"}.
+I also wrote a small Android companion app for these watches, as a replacement to the original. I can no longer add more features or test anything in relations to reverse-engineering or the companion app, because I may or may not have broke the watch...  
+You can find the companion app [here](https://git.arslaancodes.com/zwzn-freefit-android.git).

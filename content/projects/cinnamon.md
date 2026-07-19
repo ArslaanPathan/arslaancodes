@@ -1,9 +1,9 @@
 +++
 title = "cinnamon-browser"
 weight = 3
+extra.displayed_filename = "cinnamon.md"
+extra.url = "https://git.arslaancodes.com/cinnamon-browser.git/about/"
 +++
-
-# [cinnamon-browser](https://git.arslaancodes.com/cinnamon-browser.git/about/){: .white target="_blank" }
 
 A lightweight suckless-inspired vimlike browser written in C, powered by WebKit2GTK-4.1 and GTK3.
 

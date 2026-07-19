@@ -1,10 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">{{ section.title }}</h1>
-<ul>
+<h1>{{ section.title }}</h1>
+<div class="projects-list-content">
+<div class="blog-list">
 	{% for page in section.pages %}
-	<li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+		<pre class="projects-entry wrap">
+		<div class="blog-ls wrap">
+<span class="white">$ </span><span class="green">cat </span><span class="white">{{ page.extra.displayed_filename }} | </span><span class="green">glow</span>
+		</div>
+			<h2 class="blog-title">
+				<a href="{{ page.extra.url | safe}}">{{ page.title }}</a>
+			</h2>
+			{{ page.content | safe }}
+		</pre>
 	{% endfor %}
-</ul>
+</div>
+</div>
 {% endblock content %}

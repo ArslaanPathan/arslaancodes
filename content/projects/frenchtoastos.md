@@ -1,9 +1,9 @@
 +++
 title = "FrenchToastOS"
 weight = 4
+extra.displayed_filename = "frenchtoastos.md"
+extra.url = "https://git.arslaancodes.com/FrenchToastOS.git/about/"
 +++
-
-# [FrenchToastOS](https://git.arslaancodes.com/FrenchToastOS.git/about/){: .white target="_blank" }
 
 A simple from-scratch OS for x86 systems written in C.
 
@@ -21,5 +21,5 @@ A simple from-scratch OS for x86 systems written in C.
 
 ## Why I built it
 
-This was originally for [Boot](https://boot.hackclub.com){: target="_blank"}, a Hack Club YSWS (You Ship, We Ship), but I may or may not have gotten distracted with other projects...
+This was originally for [Boot](https://boot.hackclub.com), a Hack Club YSWS (You Ship, We Ship), but I may or may not have gotten distracted with other projects...  
 I might continue working on FrenchToastOS, but I have no guarantees.

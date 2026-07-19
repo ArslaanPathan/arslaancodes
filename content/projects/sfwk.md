@@ -1,9 +1,9 @@
 +++
 title = "SaffronWebKit"
 weight = 2
+extra.displayed_filename = "sfwk.md"
+extra.url = "https://git.arslaancodes.com/saffronwebkit.git/about/"
 +++
-
-# [SaffronWebKit (SFWK)](https://git.arslaancodes.com/saffronwebkit.git/about/){: .white target="_blank" }
 
 WPEWebKit bindings for Saffron, allowing you to embed webview widgets into any Saffron app with just a few lines of C.
 
